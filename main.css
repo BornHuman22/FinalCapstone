@@ -1,9 +1,27 @@
-body {
-    text-align: center;
-    background-color:black;
-    color: aliceblue;
-}
+
  
 .img1 {
     clip-path: circle();
 }
+
+body {
+    text-align: center;
+    background-color: #fbceb5 ;
+    font-size: 20px;
+    color: #fbceb5;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #e20909, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #ff5e00, 
+                   0 0 50px #9554b3, 0 0 60px #9554b3, 0 0 70px #f00707;
+    }
+    to {
+      text-shadow: 0 0 20px #741087, 0 0 30px #27c70e, 0 0 40px #1389bc, 0 0 50px #6ce112, 
+                   0 0 60px #ef0909, 0 0 70px #ff7402a8, 0 0 80px #e12a12;
+    }
+  }
