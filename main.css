@@ -1,0 +1,9 @@
+body {
+    text-align: center;
+    background-color:black;
+    color: aliceblue;
+}
+ 
+.img1 {
+    clip-path: circle();
+}
